@@ -102,7 +102,7 @@ namespace WebApiCore
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("v1/swagger.json", "ASP.NET CORE API Documentation");
+                c.SwaggerEndpoint("v1/swagger.json", "ASP.NET CORE API Documentations");
             });
 
             app.UseCustomException();
